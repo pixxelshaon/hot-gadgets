@@ -24,11 +24,17 @@ li {
     
 }
 #carousal {
-    background-image: url("images/bg-1.png"),url("images/bg-2.png");
+    background-image: url("images/bg-1.png");
 
     background-repeat: no-repeat;
-    background-size: contain, inherit;
-    background-position: center, left bottom;
+    background-size: contain;
+    background-position: center;
+   }
+   .carousel-indicators{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: left;
    }
  
 /* --------------smartphone------------ */
